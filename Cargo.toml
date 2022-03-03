@@ -1,9 +1,9 @@
 [package]
-name = "async-conversion"
+name = "async-convert"
 version = "1.0.0"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/yoshuawuyts/async-conversion"
-documentation = "https://docs.rs/async-conversion"
+repository = "https://github.com/yoshuawuyts/async-convert"
+documentation = "https://docs.rs/async-convert"
 description = "Async TryFrom/TryInto traits"
 readme = "README.md"
 edition = "2018"
@@ -16,5 +16,6 @@ authors = [
 [features]
 
 [dependencies]
+async-trait = "0.1.52"
 
 [dev-dependencies]

@@ -1,4 +1,4 @@
-<h1 align="center">async-conversion</h1>
+<h1 align="center">async-convert</h1>
 <div align="center">
   <strong>
     Async TryFrom/TryInto traits
@@ -9,17 +9,17 @@
 
 <div align="center">
   <!-- Crates version -->
-  <a href="https://crates.io/crates/async-conversion">
-    <img src="https://img.shields.io/crates/v/async-conversion.svg?style=flat-square"
+  <a href="https://crates.io/crates/async-convert">
+    <img src="https://img.shields.io/crates/v/async-convert.svg?style=flat-square"
     alt="Crates.io version" />
   </a>
   <!-- Downloads -->
-  <a href="https://crates.io/crates/async-conversion">
-    <img src="https://img.shields.io/crates/d/async-conversion.svg?style=flat-square"
+  <a href="https://crates.io/crates/async-convert">
+    <img src="https://img.shields.io/crates/d/async-convert.svg?style=flat-square"
       alt="Download" />
   </a>
   <!-- docs.rs docs -->
-  <a href="https://docs.rs/async-conversion">
+  <a href="https://docs.rs/async-convert">
     <img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square"
       alt="docs.rs docs" />
   </a>
@@ -27,15 +27,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://docs.rs/async-conversion">
+    <a href="https://docs.rs/async-convert">
       API Docs
     </a>
     <span> | </span>
-    <a href="https://github.com/yoshuawuyts/async-conversion/releases">
+    <a href="https://github.com/yoshuawuyts/async-convert/releases">
       Releases
     </a>
     <span> | </span>
-    <a href="https://github.com/yoshuawuyts/async-conversion/blob/master.github/CONTRIBUTING.md">
+    <a href="https://github.com/yoshuawuyts/async-convert/blob/master.github/CONTRIBUTING.md">
       Contributing
     </a>
   </h3>
@@ -43,7 +43,7 @@
 
 ## Installation
 ```sh
-$ cargo add async-conversion
+$ cargo add async-convert
 ```
 
 ## Safety
@@ -57,9 +57,9 @@ look at some of these issues:
 - [Issues labeled "good first issue"][good-first-issue]
 - [Issues labeled "help wanted"][help-wanted]
 
-[contributing]: https://github.com/yoshuawuyts/async-conversion/blob/master.github/CONTRIBUTING.md
-[good-first-issue]: https://github.com/yoshuawuyts/async-conversion/labels/good%20first%20issue
-[help-wanted]: https://github.com/yoshuawuyts/async-conversion/labels/help%20wanted
+[contributing]: https://github.com/yoshuawuyts/async-convert/blob/master.github/CONTRIBUTING.md
+[good-first-issue]: https://github.com/yoshuawuyts/async-convert/labels/good%20first%20issue
+[help-wanted]: https://github.com/yoshuawuyts/async-convert/labels/help%20wanted
 
 ## License
 
