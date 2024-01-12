@@ -24,7 +24,7 @@
 //!
 //! struct GreaterThanZero(i32);
 //!
-//! #[async_trait]
+//!
 //! impl TryFrom<i32> for GreaterThanZero {
 //!     type Error = &'static str;
 //!
@@ -42,8 +42,7 @@
 #![forbid(unsafe_code, future_incompatible, rust_2018_idioms)]
 #![deny(missing_debug_implementations, nonstandard_style)]
 #![warn(missing_docs, rustdoc::missing_doc_code_examples, unreachable_pub)]
-
-pub use async_trait::async_trait;
+#![allow(async_fn_in_trait)]
 
 /// A shared prelude.
 pub mod prelude {
@@ -65,7 +64,7 @@ pub mod prelude {
 /// for perfect conversions, so the `TryFrom` trait informs the
 /// programmer when a type conversion could go bad and lets them
 /// decide how to handle it.
-#[async_trait]
+
 pub trait TryFrom<T>: Sized {
     /// The type returned in the event of a conversion error.
     type Error;
@@ -88,7 +87,6 @@ pub trait TryFrom<T>: Sized {
 ///
 /// This suffers the same restrictions and reasoning as implementing
 /// [`Into`], see there for details.
-#[async_trait(?Send)]
 pub trait TryInto<T>: Sized {
     /// The type returned in the event of a conversion error.
     type Error;
@@ -98,7 +96,6 @@ pub trait TryInto<T>: Sized {
 }
 
 // TryFrom implies TryInto
-#[async_trait(?Send)]
 impl<T, U> TryInto<U> for T
 where
     U: TryFrom<T>,
