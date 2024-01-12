@@ -1,7 +1,7 @@
 <h1 align="center">async-convert</h1>
 <div align="center">
   <strong>
-    Async TryFrom/TryInto traits
+    Async TryFrom/TryInto traits (TryFromAsync/TryIntoAsync)
   </strong>
 </div>
 
